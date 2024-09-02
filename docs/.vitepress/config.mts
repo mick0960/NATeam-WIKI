@@ -16,7 +16,6 @@ export default defineConfig({
         text:'WEB'
       },
     ]},
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/mick0960/NATeam-WIKI' }
     ]

@@ -42,8 +42,8 @@
  * - `danger`: Used to show error, or dangerous message to the users. Used
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
- .VPNavBarAppearance[data-v-665809ae] {
-  display:none;
+ .VPNavBarAppearance.appearance {
+  display: none;
 }
 
 
