@@ -18,10 +18,11 @@ export default {
   enhanceApp({ app, router, siteData }) {
     // 引入element-plus组件库
     app.use(elementplus)
-    app.component('HomeLayout', HomeLayout)
-    app.component('PageRebuild', PageRebuild)
     for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
       app.component(key, component)
     }
+    // 引入自定义组件
+    app.component('HomeLayout', HomeLayout)
+    app.component('PageRebuild', PageRebuild)
   },
 } satisfies Theme
