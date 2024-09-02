@@ -30,6 +30,7 @@ export default defineConfig({
 export default defineConfig({
   title: "N&A Team",
   srcDir: '../src',
+  appearance:'force-dark',
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
