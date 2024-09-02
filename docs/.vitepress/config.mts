@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "N&A Team",
   srcDir: '../src',
+  appearance:'dark',
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
