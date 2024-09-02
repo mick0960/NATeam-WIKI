@@ -1,5 +1,7 @@
 ---
 layout: doc
+prev: false
+next: false
 ---
 # CTF入门指北
 ## 什么是CTF?

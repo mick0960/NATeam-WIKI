@@ -3,20 +3,56 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "N&A Team",
   srcDir: '../src',
-  appearance:'force-dark',
+  appearance: 'force-dark',
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: 'CTF', link: 'CTF_Fields/CTF' },
-      { text: '团队', link: '/team' }
+      { text: 'CTF入门指北', link: 'CTF_Fields/' },
+      { text: '团队介绍', link: '/team' }
     ],
 
     sidebar: {
-      '/CTF_Fields/':[
-      {
-        text:'WEB'
-      },
-    ]},
+      '/CTF_Fields/': [
+        {
+          items: [{text:'Intro',link:'/CTF_Fields/'}]
+        },
+        {
+          text: 'WEB',
+          collapsed: true,
+          items: [
+            { text: '概述', link: '/CTF_Fields/WEB/' },
+          ]
+        }, {
+          text: 'PWN',
+          collapsed: true,
+          items: [
+            { text: '概述', link: '/CTF_Fields/PWN/' },
+          ]
+        }, {
+          text: 'REVERSE',
+          collapsed: true,
+          items: [
+            { text: '概述', link: '/CTF_Fields/REVERSE/' },
+          ]
+        }, {
+          text: 'MISC',
+          collapsed: true,
+          items: [
+            { text: '概述', link: '/CTF_Fields/MISC/' },
+          ]
+        }, {
+          text: 'CRYPTO',
+          collapsed: true,
+          items: [
+            { text: '概述', link: '/CTF_Fields/CRYPTO' },
+          ]
+        }, {
+          items: [
+            { text: '参考资料', link: '/CTF_Fields/参考资料' },
+          ]
+        }
+      ]
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/mick0960/NATeam-WIKI' }
     ]
