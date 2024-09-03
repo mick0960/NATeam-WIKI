@@ -66,6 +66,11 @@ const at0mic = []
     <template #title>At0mic战队</template>
     <template #lead>N&A Team子队</template>
     <template #members>
+      <VPTeamPageTitle>
+        <template #lead>
+          现役队员
+        </template>
+      </VPTeamPageTitle>
       <VPTeamMembers :members="at0mic" />
     </template>
   </VPTeamPageSection>
