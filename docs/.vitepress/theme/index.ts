@@ -5,8 +5,8 @@ import DefaultTheme from 'vitepress/theme'
 import 'element-plus/dist/index.css'
 import elementplus from 'element-plus'
 import './style.css'
-import HomeLayout from "./HomeLayout.vue";
-import PageRebuild from "./PageRebuild.vue";
+import HomeLayout from "./layouts/HomeLayout.vue";
+import PageRebuild from "./components/PageRebuild.vue";
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 
 export default {
