@@ -2,7 +2,6 @@
 layout: page
 ---
 
-
 <div class="common-layout">
 <el-container>
     <el-header>
@@ -15,22 +14,21 @@ layout: page
             <el-col :span="4" class="box-card"><span>2023</span></el-col>
         </el-row>
         <el-row class='row-bg' justify='center'>
-            <el-col :span="8" class="box-card awards">
-                <span>江西省信息安全技术大赛 二等奖</span>
-            </el-col>
+            <span>江西省信息安全技术大赛 二等奖</span>
         </el-row>
         <el-row class='row-bg' justify='center'>
             <el-col :span="4" class="box-card"><span>2024</span></el-col>
         </el-row>
         <el-row class='row-bg' justify='center'>
             <el-col :span="8" class="box-card awards">
-                <div>第一届“长城杯”信息安全铁人三项赛 省三等奖</div>
+                <span>第一届“长城杯”信息安全铁人三项赛 省三等奖</span>
             </el-col>
             <el-col :span="8" class="box-card awards">
-                <div>第十七届全国大学生信息安全竞赛创新实践能力赛 省二等奖</div>
+                <span>第十七届全国大学生信息安全竞赛创新实践能力赛 省二等奖</span>
             </el-col>
         </el-row>
     </el-main>
+
 </el-container>
 </div>
 

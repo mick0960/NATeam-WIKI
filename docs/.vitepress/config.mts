@@ -9,6 +9,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: 'CTF入门指北', link: 'CTF_Fields/' },
+      { text: '赛事', link: 'Game' },
       { text: '团队介绍', link: '/team' },
       { text: '成就', link: '/achieves' }
     ],
