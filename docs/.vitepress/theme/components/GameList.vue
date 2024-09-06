@@ -3,7 +3,6 @@
         <el-row class="zhGameTitle">
             <h1>国内比赛</h1>
         </el-row>
-
         <div class="gameList">
             <el-row class="zhGameTitle zhGameList">
                 <el-table :data="filterTableData" style="width: 150vh;border-radius: 0px;" height="300">
@@ -42,7 +41,7 @@
 import { ref, onMounted, computed } from "vue";
 import axios from "axios";
 
-interface MatchDetail {
+interface cnMatchList {
     "name": string;
     "link": string;
     "type": string;
@@ -54,16 +53,16 @@ interface MatchDetail {
     "status": number;
 }
 
-interface MatchResult {
-    "result": MatchDetail[];
+interface cnMatchResult {
+    "result": cnMatchList[];
     "total": number;
     "size": number;
     "page": number;
 }
 
 // 创建响应式变量
-const mresult = ref<MatchResult | null>(null); // 修改为单一的 MatchResult 对象
-const matchList = ref<MatchDetail[]>([]); // matchList 初始化为空数组
+const mresult = ref<cnMatchResult | null>(null); // 修改为单一的 MatchResult 对象
+const matchList = ref<cnMatchList[]>([]); // matchList 初始化为空数组
 const filterTableData = computed(() => {
     const lowerCaseSearch = search.value.toLowerCase();
     return matchList.value.filter((data) => {
@@ -79,7 +78,7 @@ const search = ref('')
 onMounted(async () => {
     try {
         const response = await axios.get('https://raw.githubusercontent.com/ProbiusOfficial/Hello-CTFtime/main/CN.json'); // 替换为实际的 API endpoint
-        const fetchedData: MatchResult = response.data.data; // 假设 API 返回的数据符合 MatchResult 结构
+        const fetchedData: cnMatchResult = response.data.data; // 假设 API 返回的数据符合 MatchResult 结构
         mresult.value = fetchedData; // 将获取到的数据存储到 mresult 中
 
         // 更新 matchList
