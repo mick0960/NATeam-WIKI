@@ -35,9 +35,7 @@
                 </el-table>
             </el-row>
         </div>
-
     </div>
-
 </template>
 
 <script setup lang='ts'>
@@ -66,7 +64,7 @@ interface MatchResult {
 // 创建响应式变量
 const mresult = ref<MatchResult | null>(null); // 修改为单一的 MatchResult 对象
 const matchList = ref<MatchDetail[]>([]); // matchList 初始化为空数组
-    const filterTableData = computed(() => {
+const filterTableData = computed(() => {
     const lowerCaseSearch = search.value.toLowerCase();
     return matchList.value.filter((data) => {
         const statusText = getStatusText(data.status);
