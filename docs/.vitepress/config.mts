@@ -11,7 +11,7 @@ export default defineConfig({
       { text: 'CTF入门指北', link: 'CTF_Fields/' },
       { text: '赛事', link: 'Game' },
       { text: '团队介绍', link: '/team' },
-      { text: '成就', link: '/achieves' }
+      { text: '成就', link: '/achieves' },
     ],
 
     sidebar: {
@@ -54,7 +54,8 @@ export default defineConfig({
             { text: '参考资料', link: '/CTF_Fields/参考资料' },
           ]
         }
-      ]
+      ],
+      '/Game/': []
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/mick0960/NATeam-WIKI' }

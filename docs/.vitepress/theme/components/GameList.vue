@@ -5,7 +5,7 @@
         </el-row>
         <div class="gameList">
             <el-row class="zhGameTitle zhGameList">
-                <el-table :data="filterTableData" style="width: 150vh;border-radius: 0px;" height="300">
+                <el-table :data="filterTableData" style="width: 150vh;border-radius: 5px;" height="300">
                     <el-table-column type="expand">
                         <template #default="props">
                             <div class="matchInfo">
