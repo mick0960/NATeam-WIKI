@@ -54,8 +54,7 @@ export default defineConfig({
             { text: '参考资料', link: '/CTF_Fields/参考资料' },
           ]
         }
-      ],
-      '/Game/': []
+      ]
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/mick0960/NATeam-WIKI' }
