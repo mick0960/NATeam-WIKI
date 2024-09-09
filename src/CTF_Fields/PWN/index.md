@@ -79,5 +79,3 @@ Double Free漏洞是指程序多次释放同一块内存。这类漏洞可以用
 - **Patchelf**: 修改ELF文件的工具，常用于更改动态链接库的路径。
 - **Pwntools**: 用Python编写的CTF工具库，广泛用于编写漏洞利用脚本。
 - **Libc Database**: 一个用于查找libc库中版本差异的数据库，帮助定位攻击需要的libc函数地址。
-
-<PageRebuild />
