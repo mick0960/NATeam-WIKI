@@ -24,6 +24,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '概述', link: '/CTF_Fields/WEB/' },
+            { text: 'PHP基础', link: '/CTF_Fields/WEB/PHP基础' },
           ]
         }, {
           text: 'PWN',
