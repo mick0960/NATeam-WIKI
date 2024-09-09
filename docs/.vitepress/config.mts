@@ -31,6 +31,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '概述', link: '/CTF_Fields/PWN/' },
+            { text: '栈介绍', link: '/CTF_Fields/PWN/栈溢出/stack-intro' },
           ]
         }, {
           text: 'REVERSE',
