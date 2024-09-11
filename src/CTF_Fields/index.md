@@ -130,3 +130,13 @@ CTF带来的不仅是技术的提升，还有满满的成就感、全球化的�
 ---
 
 ![](https://mjj.today/i/jnYogD)
+![](https://mjj.today/i/jnIhcU)
+![](https://mjj.today/i/jnIM5i)
+![](https://mjj.today/i/jnIU6z)
+- （福建-福州）
+![](https://mjj.today/i/jnIYzm)
+![](https://mjj.today/i/jnIyZn)
+![](https://mjj.today/i/jnIDD9)
+![](https://mjj.today/i/jnYmTp)
+- （贵州-贵阳）
+### 上为部分外出比赛美好切片~~公费旅游~~
