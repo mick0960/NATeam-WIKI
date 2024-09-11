@@ -33,7 +33,7 @@ layout: page
                     <el-descriptions-item
                     label="获奖证书"
                     label-align="center" align="center" class-name="matchNameContent" width="100">
-                    <el-image src="https://github.com/mick0960/NATeam-WIKI/blob/dev/src/public/awards_pics/jx2023.png?raw=true" fit="fill"/>
+                    <el-image src="https://gitee.com/mick0960/nateam-wiki/raw/dev/src/public/awards_pics/jx2023.png" fit="fill"/>
                     </el-descriptions-item>
                 </el-descriptions>
         </el-row>
@@ -61,7 +61,7 @@ layout: page
                     <el-descriptions-item
                     label="获奖证书"
                     label-align="center" align="center" class-name="matchNameContent" width="100">
-                    <el-image src="https://github.com/mick0960/NATeam-WIKI/blob/dev/src/public/awards_pics/ccb2024.png?raw=true" fit="fill"/>
+                    <el-image src="https://gitee.com/mick0960/nateam-wiki/raw/dev/src/public/awards_pics/ccb2024.png" fit="fill"/>
                     </el-descriptions-item>
                 </el-descriptions>
             </el-col>
@@ -85,7 +85,7 @@ layout: page
                     <el-descriptions-item
                     label="获奖证书"
                     label-align="center" align="center" class-name="matchNameContent" width="100">
-                    <el-image src="awards_pics/ciscn2024.jpg" fit="fill"/>
+                    <el-image src="https://gitee.com/mick0960/nateam-wiki/raw/dev/src/public/awards_pics/jx2023.png" fit="fill"/>
                     </el-descriptions-item>
                 </el-descriptions>
             </el-col>
