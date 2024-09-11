@@ -129,7 +129,7 @@ CTF带来的不仅是技术的提升，还有满满的成就感、全球化的�
 
 ---
 
-![](https://krseoul.imgtbl.com/i/2024/09/12/66e1ca7adbe90.jpg)
+![贵阳原生态美景](https://krseoul.imgtbl.com/i/2024/09/12/66e1ca7adbe90.jpg)
 ![](https://krseoul.imgtbl.com/i/2024/09/12/66e1ca72ecef8.jpg)
 ![](https://krseoul.imgtbl.com/i/2024/09/12/66e1ca75bd5bd.jpg)
 ![](https://krseoul.imgtbl.com/i/2024/09/12/66e1ca7d3b7eb.jpg)
