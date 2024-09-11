@@ -33,7 +33,7 @@ layout: page
                     <el-descriptions-item
                     label="获奖证书"
                     label-align="center" align="center" class-name="matchNameContent" width="100">
-                    <el-image src="https://gitee.com/mick0960/nateam-wiki/raw/dev/src/public/awards_pics/jx2023.png" fit="fill"/>
+                    <el-image src="awards_pics\jx2023.png" fit="fill"/>
                     </el-descriptions-item>
                 </el-descriptions>
         </el-row>
@@ -51,7 +51,7 @@ layout: page
                     label-class-name="matchNameLabel"
                     class-name="matchNameContent"
                     >
-                    <el-tag>江西省信息安全技术大赛</el-tag>
+                    <el-tag>第一届“长城杯”信息安全铁人三项赛</el-tag>
                     </el-descriptions-item>
                     <el-descriptions-item
                     label="所获荣誉"
@@ -61,7 +61,7 @@ layout: page
                     <el-descriptions-item
                     label="获奖证书"
                     label-align="center" align="center" class-name="matchNameContent" width="100">
-                    <el-image src="https://gitee.com/mick0960/nateam-wiki/raw/dev/src/public/awards_pics/ccb2024.png" fit="fill"/>
+                    <el-image src="awards_pics\ccb2024.png" fit="fill"/>
                     </el-descriptions-item>
                 </el-descriptions>
             </el-col>
@@ -85,7 +85,7 @@ layout: page
                     <el-descriptions-item
                     label="获奖证书"
                     label-align="center" align="center" class-name="matchNameContent" width="100">
-                    <el-image src="https://gitee.com/mick0960/nateam-wiki/raw/dev/src/public/awards_pics/jx2023.png" fit="fill"/>
+                    <el-image src="awards_pics\ciscn2024.jpg" fit="fill"/>
                     </el-descriptions-item>
                 </el-descriptions>
             </el-col>
