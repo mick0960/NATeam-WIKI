@@ -85,7 +85,7 @@ layout: page
                     <el-descriptions-item
                     label="获奖证书"
                     label-align="center" align="center" class-name="matchNameContent" width="100">
-                    <el-image src="awards_pics\ciscn2024.jpg" fit="fill"/>
+                    <el-image src="awards_pics\ciscn2024.jpg" fit="fill" height="100vh"/>
                     </el-descriptions-item>
                 </el-descriptions>
             </el-col>

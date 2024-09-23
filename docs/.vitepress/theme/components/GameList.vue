@@ -74,11 +74,10 @@ const filterTableData = computed(() => {
 const search = ref('')
 
 
-// 使用 onMounted 钩子来在组件加载时获取数据
 onMounted(async () => {
     try {
-        const response = await axios.get('https://raw.githubusercontent.com/ProbiusOfficial/Hello-CTFtime/main/CN.json'); // 替换为实际的 API endpoint
-        const fetchedData: cnMatchResult = response.data.data; // 假设 API 返回的数据符合 MatchResult 结构
+        const response = await axios.get('https://raw.githubusercontent.com/ProbiusOfficial/Hello-CTFtime/main/CN.json');
+        const fetchedData: cnMatchResult = response.data.data;
         mresult.value = fetchedData; // 将获取到的数据存储到 mresult 中
 
         // 更新 matchList

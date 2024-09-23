@@ -129,15 +129,16 @@ CTF带来的不仅是技术的提升，还有满满的成就感、全球化的�
 
 ---
 
-![](https://krseoul.imgtbl.com/i/2024/09/12/66e1ca7adbe90.jpg)
-![](https://krseoul.imgtbl.com/i/2024/09/12/66e1ca72ecef8.jpg)
-![](https://krseoul.imgtbl.com/i/2024/09/12/66e1ca75bd5bd.jpg)
-![](https://krseoul.imgtbl.com/i/2024/09/12/66e1ca7d3b7eb.jpg)
+![](../public/travel/1.jpg)
+![](../public/travel/2.jpg)
+![](../public/travel/3.jpg)
+![](../public/travel/4.jpg)
+
 ### （福建-福州）
-![](https://krseoul.imgtbl.com/i/2024/09/12/66e1ca7dc9d79.jpg)
-![](https://krseoul.imgtbl.com/i/2024/09/12/66e1ca5ec5ba9.jpg)
-![](https://krseoul.imgtbl.com/i/2024/09/12/66e1ca5e938c3.jpg)
-![](https://krseoul.imgtbl.com/i/2024/09/12/66e1ca5eb015f.jpg)
+![](../public/travel/5.jpg)
+![](../public/travel/6.jpg)
+![](../public/travel/7.jpg)
+![](../public/travel/8.jpg)
 ### （贵州-贵阳）
 
 ### 上为部分外出比赛~~公费旅游~~的美好切片😋
